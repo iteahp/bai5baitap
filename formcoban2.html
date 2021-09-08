@@ -3,40 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Form cơ bản 2</title>
+    <style>
+        .chuxanh {
+            color: blue;float: right;
+        }
+        .chucam {
+            color: orange;
+        }
+        table {
+            background-color: white;
+        }
 
+    </style>
 </head>
 <body>
-<form ><table style= "width : 30% ; border:1px solid ";>
+<table >
+<form ><table style= "width : 30%  ">
 <tr>
-  <th colspan="2" bgcolor="red" >SỞ THÍCH CỦA BẠN</th>
+  <th colspan="2" style="background-color: orange ; color: white" >SỞ THÍCH CỦA BẠN</th>
 </tr>
  <tr>
-   <td> Họ và tên </td>
+   <td class="chuxanh"> Họ và tên </td>
      <td><input type="text" name="yourname">
  </td>
  </tr>
 
 
   <tr>
-    <td>Email </td>
+    <td class="chuxanh">Email </td>
       <td><input type="email"   name="email"></td>
   </tr>
 
    <tr>
-     <td>Sở thích </td>
+     <td class="chuxanh">Sở thích </td>
      <td><table>
    <tr>
-     <td><lable><input type="checkbox" name="hobby" value="">Thể thao</lable></td>
-     <td> <lable><input type="checkbox" name="hobby" value="">Âm nhạc</lable></td>
-      <td><lable><input type="checkbox" name="hobby" value="">Đọc sách</lable></td>
+     <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Thể thao</lable></td>
+     <td class="chucam"> <lable><input type="checkbox" name="hobby" value="">Âm nhạc</lable></td>
+      <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Đọc sách</lable></td>
    </tr>
    <tr>
-    <td><lable><input type="checkbox" name="hobby" value="">Lướt web</lable></td>
-    <td><lable><input type="checkbox" name="hobby" value="">Chơi game</lable></td>
-    <td><lable><input type="checkbox" name="hobby" value="">Điện ảnh</lable></td>
+    <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Lướt web</lable></td>
+    <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Chơi game</lable></td>
+    <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Điện ảnh</lable></td>
    </tr>
     <tr>
-    <td><lable><input type="checkbox" name="hobby" value="">Du lịch</lable></td>
+    <td class="chucam"><lable><input type="checkbox" name="hobby" value="">Du lịch</lable></td>
     </tr>
     </table></td>
        <tr>
@@ -50,5 +62,6 @@
   </tr>
 </table>
 </form>
+</table>
 </body>
 </html>
