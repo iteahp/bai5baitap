@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Form khách hàng</title>
 </head>
 <body>
-$END$
+<h1>Khảo sát nghiên cứu thị trường</h1> <br>
+ <b>Bạn có thể dành vài phút để hoàn thành bài khảo sát này không ? </b><br><br>
+<form action="">
+    <b>Bạn ở khoảng tuổi nào?</b><br>
+<select name="age" id="age">
+    <option value="">18-24</option>
+    <option value="">25-34</option>
+    <option value="">35-50</option>
+    <option value="">50+</option>
+
+</select><br><br>
+    <b>Thu nhập hàng năm của bạn là bao nhiêu ?</b><br>
+    <select name="" id="">
+        <option value="">$0 - $25000</option>
+        <option value="">$25000 - $50000</option>
+        <option value="">$50000 - $100000</option>
+        <option value="">$100000+</option>
+    </select><br><br>
+
+    <b>Giới tính</b><br>
+    <label for=""><input name="gioitinh" type="radio">Nam</label><br>
+    <label for=""><input name="gioitinh" type="radio">Nữ</label><br><br>
+
+    <b>Bạn đã mua sản phẩm nào sau đây trong 2 tháng qua. Vui lòng kiểm tra tất cả những gì áp dụng.</b><br><br>
+    <label for=""><input type="checkbox" name="sanpham"> Sản phẩm 1</label><br>
+    <label for=""><input type="checkbox" name="sanpham"> Sản phẩm 2 </label><br>
+    <label for=""><input type="checkbox" name="sanpham"> Sản phẩm 3 </label><br>
+    <br>
+
+    <b>Bạn sẽ sử dụng sản phẩm mới của chúng tôi bao lâu một lần?</b><br>
+    <label for=""><input type="radio" name="thoigian"> Hàng ngày</label><br>
+    <label for=""><input type="radio" name="thoigian">Hàng tuần</label><br>
+    <label for=""><input type="radio" name="thoigian">Hàng tháng</label><br><br>
+
+    <b>Bạn sẽ trả bao nhiêu cho sản phẩm mới?</b>
+    <table>
+        <tr><td>$</td>
+            <td><input type="number" width="15px" >.</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr><td></td>
+            <td>Dollars</td> <td>Cents</td> </tr>
+
+            <br><br>
+    </table>
+    <b>Bạn muốn xem những tính năng nào trong sản phẩm mới ?</b><br>
+    <textarea name="" id="" cols="70" rows="5"></textarea><br><br>
+
+
+    <button type="submit"> <b>Submit</b></button>
+</form>
 </body>
 </html>
